@@ -1,5 +1,47 @@
+*{
+    background-color: rgb(233, 174, 225);
+}
+
+
 h1,h2,h3,h4,h5,p,a,button{
-    color: rgb(173, 88, 167);
-    font-family: 'Times New Roman', Times, serif, Helvetica, sans-serif;
-    text-decoration: rgb(244, 214, 248);
+    color: rgb(84, 5, 79);
+    font-family: 'Segoe UI Variable Display Semib', Times, serif, Helvetica, sans-serif;
+    text-decoration: rgb(235, 178, 243);
+    
+}
+img{
+    max-width: 100%;
+}
+nav ul {
+    list-style: none;
+}
+/* nav ul li {
+    font-size: large;
+    display: inline-block;
+    padding: 10px 20px;
+} */
+.jihyaa{
+    width: 100%;
+}
+.inez{
+
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    width: 10%;
+}
+.menu{
+    flex: 1;
+}
+.menu ul{
+    display: flex;
+    list-style: none;
+    justify-content: right;
+
+}
+.menu ul li a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 20px;
 }
